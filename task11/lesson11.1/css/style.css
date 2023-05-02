@@ -1,0 +1,49 @@
+.container {
+  width: 1100px;
+  padding: 100px 50px;
+  margin: auto;
+}
+
+.wrapper {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+
+.static-card {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.705)),
+    url(/images/1\ nature.jpg);
+  padding: 50px 50px;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: repeat;
+  background-position: center center;
+  transition: background-size 1s;
+  /*  transition: ease-out; */
+}
+
+.wrapper:hover .static-card {
+  background-size: auto 110%;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.transform-card {
+  position: absolute;
+  padding: 300px 20px 10px;
+  transform: translateY(120px);
+  transition: 1s;
+}
+
+.wrapper:hover .transform-card {
+  transform: translateY(0);
+}
