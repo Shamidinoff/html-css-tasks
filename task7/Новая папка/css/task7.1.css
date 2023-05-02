@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-search {
+  background-color: rgb(80, 211, 167);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  border: 2px solid rgb(43, 110, 43);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+img {
+  width: 70%;
+  fill: white;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(49, 144, 112);
+}

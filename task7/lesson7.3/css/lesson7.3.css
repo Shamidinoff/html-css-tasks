@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(241, 250, 255);
+}
+
+form {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  padding: 100px 0;
+}
+
+.registration {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.first-p {
+  margin-bottom: 35px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.all_inputs {
+  width: 300px;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 7px 7px;
+  width: 100%;
+  outline: none;
+}
+
+.left-p {
+  text-align: left;
+  color: grey;
+}
+
+.registration__date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+select {
+  padding: 7px 7px;
+  color: gray;
+  outline: none;
+}
+
+.month select {
+  width: 140px;
+}
+
+.green-button {
+  background-color: rgb(36, 162, 36);
+  color: white;
+  padding: 10px 10px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.last-p-or {
+  color: gray;
+}
+
+.blue-button {
+  background-color: rgb(28, 118, 182);
+  color: white;
+  padding: 10px 10px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

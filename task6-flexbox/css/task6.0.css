@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1146px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 53px 0;
+  background-color: white;
+}
+
+.flex-item {
+  justify-content: center;
+  align-items: center;
+}
+
+.myfreedom-logo {
+  text-decoration: none;
+  font-family: "M plus 1p";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 43px;
+  letter-spacing: 2px;
+  color: #0f044c;
+}
+
+.flex-item__phone-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item li {
+  list-style: none;
+  display: inline-block;
+}
+
+.flex-item li a {
+  text-decoration: none;
+  list-style: none;
+  font-family: "M plus 1p";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.4px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #080800;
+  margin-right: 51px;
+}
+
+.flex-item__phone-number {
+  font-family: "M plus 1p";
+  font-weight: 800;
+  font-size: 14.4px;
+  letter-spacing: 2px;
+  color: #30233d;
+}
+
+.flex-item__phone-number img {
+  display: block;
+  margin-right: 18px;
+  font-family: Mplus;
+}
+
+.wallpaper {
+  background-image: url(../images/0.2-city-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  height: 378px; */
+}
+
+.wallpaper h1 {
+  font-family: "M plus 1p";
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 80px;
+  color: #fcfcfc;
+  padding-top: 126px;
+  padding-bottom: 22px;
+}
+
+.wallpaper p {
+  font-family: "M plus 1p";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 143.9%;
+  letter-spacing: 2px;
+  color: #f4f4ed;
+  padding-bottom: 115px;
+}
+
+.description {
+  background-color: white;
+  padding-bottom: 58px;
+}
+
+.description__text {
+  /* width: 870px; */
+}
+
+.description__text h2 {
+  font-family: "M plus 1p";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12.6px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #a22f32;
+  padding-top: 72px;
+  padding-bottom: 12px;
+}
+
+.description__text p {
+  font-family: "M plus 1p";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+  color: #30233d;
+  padding-bottom: 60px;
+  width: 870px;
+}
+
+.description__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description__flex-item {
+  padding: 39px 36px 64px 38px;
+  border: 1px solid #f61067;
+  /* margin-right: 30px; */
+}
+
+.description__flex-item img {
+  padding-bottom: 33px;
+}
+
+.description__flex-item h2 {
+  font-family: "M plus 1p";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 40px;
+  color: #30233d;
+  padding-bottom: 13px;
+}
+
+.description__flex-item p {
+  width: 290px;
+  font-family: "M plus 1p";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 26px;
+  color: #30233d;
+}
+
+footer {
+  background-color: #080800;
+  padding-top: 84px;
+  padding-bottom: 72px;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-flex__item p {
+  font-family: "M plus 1p";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11.7px;
+  line-height: 19px;
+  color: #fcfcfc;
+}
