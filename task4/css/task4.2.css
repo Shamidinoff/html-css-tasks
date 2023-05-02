@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.nav-container {
+  display: inline-block;
+  padding: 43px 0;
+  border-bottom: 1px solid #c08d5d;
+}
+
+body {
+  background-color: #fffaf3;
+  background-image: url(../images/food_vinograd.png);
+  background-size: 660px auto;
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  margin-bottom: 137px;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 38.64px;
+  height: 59px;
+  margin-right: 83.36px;
+  vertical-align: middle;
+  /*  margin-top: 43px; */
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+  text-decoration: none;
+  /*  margin-top: 59px; */
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.logo {
+  /* float: left; */
+  display: inline-block;
+}
+
+.home-text {
+  color: #c08d5d;
+}
+
+/* header::after {
+  content: "";
+  display: inline-block;
+  width: 470px;
+  height: 1px;
+  background: #c08d5d;
+  margin-top: 42.5px;
+  margin-bottom: 122.5px;
+} */
+
+h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+  font: normal 70px "Yeseva One";
+  color: #3f4042;
+  letter-spacing: 0.06em;
+  line-height: 81px;
+}
+
+h1::after {
+  content: url(../images/food_volna.svg);
+  display: block;
+}
+
+span {
+  display: block;
+  text-transform: none;
+  font-size: 50px;
+  font-family: "Yeseva One", cursive;
+  color: #3f4042;
+}
+
+span::after {
+  content: url(../images/food_logo.svg);
+  width: 45.21px;
+  height: 69.04px;
+  margin-left: 8px;
+}
+
+main p {
+  font-size: 18px;
+  max-width: 535px;
+  max-height: 108px;
+  margin-top: 25.97px;
+  margin-bottom: 72px;
+}
+
+.move-to {
+  display: inline-block;
+  background-color: #fffaf3;
+  color: #3f4042;
+  text-decoration: none;
+  padding-left: 26px;
+  line-height: 64px;
+  border: 2px solid #c08d5d;
+  margin-bottom: 62.6px;
+}
+
+.move-to::after {
+  content: url(../images/food_arrow.svg);
+  display: inline-block;
+  width: 59px;
+  height: 64px;
+  background-color: #c08d5d;
+  line-height: 64px;
+  text-align: center;
+  color: white;
+  margin-left: 26px;
+}
+
+.mouse-click img {
+  display: block;
+  /*  margin-left: auto;
+  margin-bottom: auto; */
+  margin: 63px auto 69px auto;
+  /* margin-top: 62.6px;
+  margin-bottom: 68.6px; */
+}

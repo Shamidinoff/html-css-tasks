@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  max-width: 1146px;
+  margin: auto;
+}
+
+header {
+  background-image: url(../Images/SkyHedaer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: #003395;
+  font-size: 54px;
+  margin-bottom: 27px;
+  padding-top: 70px;
+}
+
+header p {
+  color: black;
+  font-size: 18px;
+  padding-bottom: 70px;
+}
+
+nav {
+  background-color: #003395;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+nav a {
+  color: white;
+  margin-right: 62px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: darkred;
+}
+
+.left-table {
+  max-width: 762px;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.right-table {
+  max-width: 362px;
+  display: inline-block;
+}
+
+main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+main div {
+  vertical-align: top;
+}
+
+h2 {
+  color: #003395;
+  border-top: 2px solid #003395;
+  border-bottom: 2px solid #003395;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+main p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+main a {
+  color: #003395;
+}
+
+h3 {
+  color: white;
+  background-color: #24b0ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul li a {
+  color: #30233d;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 163.35%;
+  text-decoration-line: underline;
+}
+
+.border-div {
+  border: 2px solid #33008d;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.border-div p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16.2px;
+  line-height: 120%;
+}
+
+footer {
+  background: linear-gradient(180deg, #003395 0%, #00205f 100%);
+  text-align: right;
+}
+
+footer div p {
+  color: #fcfcfc;
+  font-size: 11.7px;
+  padding-top: 45px;
+  padding-bottom: 83px;
+}
