@@ -1,0 +1,19 @@
+body {
+  background-image: url(https://ucarecdn.com/494dd874-3a1b-41d8-a30c-4b23088c6586/cat.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main {
+  width: 600px;
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+}
+
+h1 {
+}
+h2 {
+  background-color: brown;
+  padding: 10px;
+  background-image: linear-gradient(rgb(45, 25, 25), brown);
+}
