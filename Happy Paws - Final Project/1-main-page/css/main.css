@@ -1821,31 +1821,30 @@ footer .myfreedom .container p {
   main .section1-page {
     background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
     width: auto;
-    height: auto;
-    background-size: 100% auto;
+    height: 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
   }
   main .section1-page .container {
-    width: 95%;
+    max-width: 95%;
     margin: 0 auto;
   }
   main .section1-page .container .s1-description {
     display: flex;
     justify-content: center;
-    padding-top: 100px; /* changed */
-    padding-bottom: 75px; /* changed */
+    padding-top: 150px;
+    padding-bottom: 75px;
   }
   main .section1-page .container .s1-description .descr-text {
     display: block;
-    width: 400px; /* changed */
+    width: 683px;
   }
   main .section1-page .container .s1-description .descr-text p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 40px; /* changed */
-    line-height: 40px; /* changed */
+    font-size: 45px;
+    line-height: 50px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -1857,45 +1856,48 @@ footer .myfreedom .container p {
   }
   main .section1-page .container .s1-sitter-bg .sitter-content {
     /* Белый фон контент -  Белый фон контент */
-    width: 700px; /* changed */
+    max-width: 500px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
-    padding: 20px 30px 30px; /* changed */
-    margin-bottom: 30px; /* changed */
+    padding: 25px 30px 25px 30px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px; /* changed */
-    line-height: 25px;
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
-    padding: 10px 15px 10px 10px; /* changed */
+    padding: 12px 36px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
@@ -1905,8 +1907,8 @@ footer .myfreedom .container p {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -1917,32 +1919,34 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
-    padding: 10px 15px 10px 10px;
+    padding: 12px 15px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
+    display: inline-block;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
-    padding: 10px 15px 10px;
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -1951,9 +1955,6 @@ footer .myfreedom .container p {
     outline: none;
     cursor: pointer;
   }
-  main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn img {
-    width: 70%;
-  }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
     /* Кнопка поиска -  Кнопка поиска */
   }
@@ -1961,22 +1962,22 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: rgba(255, 255, 255, 0);
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
-    padding: 12px 30px;
+    padding: 11.5px 60px;
     border: 1px solid #339cb3;
     border-radius: 10px;
     background-color: #339cb3;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #ffffff;
     cursor: pointer;
@@ -2700,32 +2701,31 @@ footer .myfreedom .container p {
   }
   main .section1-page {
     background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-    width: 100%;
-    height: auto; /* changed */
-    background-size: 100% auto; /* changed */
+    width: auto;
+    height: 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
   }
   main .section1-page .container {
-    width: 95%;
+    max-width: 95%;
     margin: 0 auto;
   }
   main .section1-page .container .s1-description {
     display: flex;
     justify-content: center;
-    padding-top: 100px; /* changed */
-    padding-bottom: 50px; /* changed */
+    padding-top: 150px;
+    padding-bottom: 75px;
   }
   main .section1-page .container .s1-description .descr-text {
     display: block;
-    width: 300px; /* changed */
+    width: 683px;
   }
   main .section1-page .container .s1-description .descr-text p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px; /* changed */
-    line-height: 32px; /* changed */
+    font-size: 45px;
+    line-height: 50px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -2737,56 +2737,59 @@ footer .myfreedom .container p {
   }
   main .section1-page .container .s1-sitter-bg .sitter-content {
     /* Белый фон контент -  Белый фон контент */
-    width: 550px; /* changed */
+    max-width: 500px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
-    padding: 15px 20px 15px; /* changed */
-    margin-bottom: 20px; /* changed */
+    padding: 25px 30px 25px 30px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px; /* changed */
-    line-height: 20px; /* changed */
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
-    margin-bottom: 20px; /* changed */
+    margin-bottom: 60px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
-    padding: 8px 10px 8px 8px; /* changed */
+    padding: 12px 36px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
-    padding: 8px 10px 8px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -2797,32 +2800,34 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
-    padding: 8px 10px 8px 8px; /* changed */
+    padding: 12px 15px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
+    display: inline-block;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
-    padding: 8px 10px 8px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -2831,9 +2836,6 @@ footer .myfreedom .container p {
     outline: none;
     cursor: pointer;
   }
-  main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn img {
-    width: 70%; /* changed */
-  }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
     /* Кнопка поиска -  Кнопка поиска */
   }
@@ -2841,22 +2843,22 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: rgba(255, 255, 255, 0);
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
-    padding: 11px 15px; /* changed */
+    padding: 11.5px 60px;
     border: 1px solid #339cb3;
     border-radius: 10px;
     background-color: #339cb3;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #ffffff;
     cursor: pointer;
@@ -3579,6 +3581,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   header .container .header-flex .header-flex-reg .log-in {
+    display: none;
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #fff;
@@ -3595,32 +3598,31 @@ footer .myfreedom .container p {
   }
   main .section1-page {
     background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-    width: 100%;
-    height: auto; /* changed */
-    background-size: 100% auto; /* changed */
+    width: auto;
+    height: 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
   }
   main .section1-page .container {
-    width: 95%;
+    max-width: 95%;
     margin: 0 auto;
   }
   main .section1-page .container .s1-description {
     display: flex;
     justify-content: center;
-    padding-top: 100px; /* changed */
-    padding-bottom: 50px; /* changed */
+    padding-top: 150px;
+    padding-bottom: 75px;
   }
   main .section1-page .container .s1-description .descr-text {
     display: block;
-    width: 300px; /* changed */
+    width: 683px;
   }
   main .section1-page .container .s1-description .descr-text p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px; /* changed */
-    line-height: 32px; /* changed */
+    font-size: 45px;
+    line-height: 50px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -3632,56 +3634,59 @@ footer .myfreedom .container p {
   }
   main .section1-page .container .s1-sitter-bg .sitter-content {
     /* Белый фон контент -  Белый фон контент */
-    width: 550px; /* changed */
+    max-width: 500px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
-    padding: 15px 20px 15px; /* changed */
-    margin-bottom: 20px; /* changed */
+    padding: 25px 30px 25px 30px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px; /* changed */
-    line-height: 20px; /* changed */
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
-    margin-bottom: 20px; /* changed */
+    margin-bottom: 60px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
-    padding: 8px 10px 8px 8px; /* changed */
+    padding: 12px 36px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
-    padding: 8px 10px 8px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -3692,32 +3697,34 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
-    padding: 8px 10px 8px 8px; /* changed */
+    padding: 12px 15px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
+    display: inline-block;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
-    padding: 8px 10px 8px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -3726,9 +3733,6 @@ footer .myfreedom .container p {
     outline: none;
     cursor: pointer;
   }
-  main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn img {
-    width: 70%; /* changed */
-  }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
     /* Кнопка поиска -  Кнопка поиска */
   }
@@ -3736,22 +3740,22 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: rgba(255, 255, 255, 0);
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
-    padding: 11px 15px; /* changed */
+    padding: 11.5px 60px;
     border: 1px solid #339cb3;
     border-radius: 10px;
     background-color: #339cb3;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #ffffff;
     cursor: pointer;
@@ -4476,6 +4480,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   header .container .header-flex .header-flex-reg .log-in {
+    display: none;
     padding: 8.5px 22px;
     border-radius: 50px;
     background-color: #fff;
@@ -4492,32 +4497,31 @@ footer .myfreedom .container p {
   }
   main .section1-page {
     background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-    width: 100%;
-    height: auto; /* changed */
-    background-size: 100% auto; /* changed */
+    width: auto;
+    height: 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
   }
   main .section1-page .container {
-    width: 90%;
+    max-width: 95%;
     margin: 0 auto;
   }
   main .section1-page .container .s1-description {
     display: flex;
     justify-content: center;
-    padding-top: 75px; /* changed */
-    padding-bottom: 50px; /* changed */
+    padding-top: 150px;
+    padding-bottom: 75px;
   }
   main .section1-page .container .s1-description .descr-text {
     display: block;
-    width: 250px; /* changed */
+    width: 683px;
   }
   main .section1-page .container .s1-description .descr-text p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px; /* changed */
-    line-height: 25px; /* changed */
+    font-size: 45px;
+    line-height: 50px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -4529,56 +4533,59 @@ footer .myfreedom .container p {
   }
   main .section1-page .container .s1-sitter-bg .sitter-content {
     /* Белый фон контент -  Белый фон контент */
-    width: 500px; /* changed */
+    max-width: 500px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
-    padding: 10px 15px 10px; /* changed */
-    margin-bottom: 20px; /* changed */
+    padding: 25px 30px 25px 30px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 15px; /* changed */
-    line-height: 15px; /* changed */
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
-    margin-bottom: 20px; /* changed */
+    margin-bottom: 60px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
-    padding: 8px 10px 8px 8px; /* changed */
+    padding: 12px 36px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
-    padding: 8px 10px 8px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -4589,32 +4596,34 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
-    padding: 8px 10px 8px 8px; /* changed */
+    padding: 12px 15px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
+    display: inline-block;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
-    padding: 8px 10px 8px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -4623,9 +4632,6 @@ footer .myfreedom .container p {
     outline: none;
     cursor: pointer;
   }
-  main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn img {
-    width: 70%; /* changed */
-  }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
     /* Кнопка поиска -  Кнопка поиска */
   }
@@ -4633,22 +4639,22 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 12px; /* changed */
-    line-height: 12px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: rgba(255, 255, 255, 0);
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
-    padding: 11px 15px; /* changed */
+    padding: 11.5px 60px;
     border: 1px solid #339cb3;
     border-radius: 10px;
     background-color: #339cb3;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #ffffff;
     cursor: pointer;
@@ -5299,8 +5305,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex {
     display: flex;
-    justify-content: center; /* changed - space between */
-    flex-wrap: wrap-reverse;
+    justify-content: space-between; /* changed - space between */
     text-align: center;
     align-items: center;
     gap: 20px;
@@ -5379,6 +5384,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   header .container .header-flex .header-flex-reg .log-in {
+    display: none;
     padding: 8px 15px;
     border-radius: 50px;
     background-color: #fff;
@@ -5395,32 +5401,31 @@ footer .myfreedom .container p {
   }
   main .section1-page {
     background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-    width: 100%;
-    height: auto; /* changed */
-    background-size: 100% auto; /* changed */
+    width: auto;
+    height: 920px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
   }
   main .section1-page .container {
-    width: 90%;
+    max-width: 95%;
     margin: 0 auto;
   }
   main .section1-page .container .s1-description {
     display: flex;
     justify-content: center;
-    padding-top: 50px; /* changed */
-    padding-bottom: 30px; /* changed */
+    padding-top: 75px;
+    padding-bottom: 50px;
   }
   main .section1-page .container .s1-description .descr-text {
     display: block;
-    width: 250px; /* changed */
+    max-width: 683px;
   }
   main .section1-page .container .s1-description .descr-text p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px; /* changed */
-    line-height: 25px; /* changed */
+    font-size: 35px;
+    line-height: 40px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -5432,56 +5437,59 @@ footer .myfreedom .container p {
   }
   main .section1-page .container .s1-sitter-bg .sitter-content {
     /* Белый фон контент -  Белый фон контент */
-    width: 450px; /* changed */
+    max-width: 350px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
-    padding: 10px 10px; /* changed */
-    margin-bottom: 20px; /* changed */
+    padding: 25px 30px 25px 30px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 15px; /* changed */
-    line-height: 15px; /* changed */
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
-    margin-bottom: 20px; /* changed */
+    margin-bottom: 40px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
-    padding: 5px 5px; /* changed */
+    padding: 12px 36px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
-    padding: 5px 5px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -5492,32 +5500,34 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
-    padding: 5px 5px; /* changed */
+    padding: 12px 15px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
+    display: inline-block;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
-    padding: 5px 5px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -5526,9 +5536,6 @@ footer .myfreedom .container p {
     outline: none;
     cursor: pointer;
   }
-  main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn img {
-    width: 70%; /* changed */
-  }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
     /* Кнопка поиска -  Кнопка поиска */
   }
@@ -5536,22 +5543,22 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: rgba(255, 255, 255, 0);
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
-    padding: 8px 5px; /* changed */
+    padding: 11.5px 60px;
     border: 1px solid #339cb3;
     border-radius: 10px;
     background-color: #339cb3;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #ffffff;
     cursor: pointer;
@@ -6209,8 +6216,7 @@ footer .myfreedom .container p {
   }
   header .container .header-flex {
     display: flex;
-    justify-content: center; /* changed - space between */
-    flex-wrap: wrap-reverse;
+    justify-content: space-between; /* changed - space between */
     text-align: center;
     align-items: center;
     gap: 20px;
@@ -6228,7 +6234,6 @@ footer .myfreedom .container p {
     height: 50px;
     margin-right: 15px;
     align-items: center;
-    margin-right: 250px; /* changed */
   }
   header .container .header-flex .header-flex-logo .close-menu {
     display: block; /* close menu icon */
@@ -6290,6 +6295,7 @@ footer .myfreedom .container p {
     cursor: pointer;
   }
   header .container .header-flex .header-flex-reg .log-in {
+    display: none;
     padding: 8px 15px;
     border-radius: 50px;
     background-color: #fff;
@@ -6306,32 +6312,31 @@ footer .myfreedom .container p {
   }
   main .section1-page {
     background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-    width: 100%;
-    height: auto; /* changed */
-    background-size: 100% auto; /* changed */
+    width: auto;
+    height: 920px;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
   }
   main .section1-page .container {
-    width: 90%;
+    max-width: 95%;
     margin: 0 auto;
   }
   main .section1-page .container .s1-description {
     display: flex;
     justify-content: center;
-    padding-top: 50px; /* changed */
-    padding-bottom: 30px; /* changed */
+    padding-top: 75px;
+    padding-bottom: 50px;
   }
   main .section1-page .container .s1-description .descr-text {
     display: block;
-    width: 250px; /* changed */
+    max-width: 683px;
   }
   main .section1-page .container .s1-description .descr-text p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px; /* changed */
-    line-height: 25px; /* changed */
+    font-size: 35px;
+    line-height: 40px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -6343,56 +6348,59 @@ footer .myfreedom .container p {
   }
   main .section1-page .container .s1-sitter-bg .sitter-content {
     /* Белый фон контент -  Белый фон контент */
-    width: 450px; /* changed */
+    max-width: 350px;
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
-    padding: 10px 10px; /* changed */
-    margin-bottom: 20px; /* changed */
+    padding: 25px 30px 25px 30px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content h1 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 15px; /* changed */
-    line-height: 15px; /* changed */
+    font-size: 31px;
+    line-height: 36px;
     color: #25282b;
-    margin-bottom: 20px; /* changed */
+    margin-bottom: 40px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item h2 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select {
-    padding: 5px 5px; /* changed */
+    padding: 12px 36px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item .form-item select option {
-    padding: 5px 5px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -6403,32 +6411,34 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: #25282b;
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form {
-    padding: 5px 5px; /* changed */
+    padding: 12px 15px 12px 12px;
     border: 1px solid #78d1e5;
     border-radius: 10px;
+    width: 250px;
+    display: inline-block;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
     cursor: pointer;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form label {
-    padding: 5px 5px; /* changed */
+    padding: 12px 36px 12px;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #b3aeae;
   }
@@ -6437,9 +6447,6 @@ footer .myfreedom .container p {
     outline: none;
     cursor: pointer;
   }
-  main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-item-date .form-item form .calendar-btn img {
-    width: 70%; /* changed */
-  }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search {
     /* Кнопка поиска -  Кнопка поиска */
   }
@@ -6447,22 +6454,22 @@ footer .myfreedom .container p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 20px;
+    line-height: 23px;
     align-items: center;
     color: rgba(255, 255, 255, 0);
     margin-bottom: 10px;
   }
   main .section1-page .container .s1-sitter-bg .sitter-content .sitter-data .sitter-data-search .form-item .search-btn {
-    padding: 8px 5px; /* changed */
+    padding: 11.5px 60px;
     border: 1px solid #339cb3;
     border-radius: 10px;
     background-color: #339cb3;
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 10px; /* changed */
-    line-height: 10px; /* changed */
+    font-size: 16px;
+    line-height: 22px;
     align-items: center;
     color: #ffffff;
     cursor: pointer;

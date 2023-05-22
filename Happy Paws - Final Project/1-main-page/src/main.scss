@@ -2099,28 +2099,27 @@ footer {
     .section1-page {
       background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
       width: auto;
-      height: auto; // 1000px
-      background-size: 100% auto;
+      height: 1000px; // max-height - 100% or auto
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: top center;
       .container {
-        width: 95%;
+        max-width: 95%;
         margin: 0 auto;
         .s1-description {
           display: flex;
           justify-content: center;
-          padding-top: 100px; /* changed */
-          padding-bottom: 75px; /* changed */
+          padding-top: 150px; // 284px
+          padding-bottom: 75px;
           .descr-text {
             display: block;
-            width: 400px; /* changed */
+            width: 683px;
 
             p {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 40px; /* changed */
-              line-height: 40px; /* changed */
+              font-size: 45px; // 61px
+              line-height: 50px;
               display: flex;
               align-items: center;
               text-align: center;
@@ -2133,36 +2132,38 @@ footer {
           justify-content: center;
           .sitter-content {
             /* Белый фон контент -  Белый фон контент */
-            width: 700px; /* changed */
+            max-width: 500px; // 1081px
 
             text-align: center;
 
             background-color: #fff;
             border-radius: 10px;
-            padding: 20px 30px 30px; /* changed */
-            margin-bottom: 30px; /* changed */
+            padding: 25px 30px 25px 30px;
 
             h1 {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 25px; /* changed */
-              line-height: 25px;
+              font-size: 31px;
+              line-height: 36px;
               color: #25282b;
-              margin-bottom: 30px;
+              margin-bottom: 60px;
             }
 
             .sitter-data {
               display: flex;
-              justify-content: space-between;
+              justify-content: center;
+              flex-wrap: wrap;
+              flex-direction: column;
+              gap: 20px;
 
               .sitter-data-item {
                 h2 {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -2170,15 +2171,17 @@ footer {
 
                 .form-item {
                   select {
-                    padding: 10px 15px 10px 10px; /* changed */
+                    // display: inline-block;
+                    padding: 12px 36px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 12px; /* changed */
-                    line-height: 12px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
@@ -2188,8 +2191,8 @@ footer {
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 12px; /* changed */
-                      line-height: 12px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -2202,8 +2205,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -2211,26 +2214,28 @@ footer {
 
                 .form-item {
                   form {
-                    padding: 10px 15px 10px 10px;
+                    padding: 12px 15px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
+                    display: inline-block;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 12px; /* changed */
-                    line-height: 12px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     label {
-                      padding: 10px 15px 10px;
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 12px; /* changed */
-                      line-height: 12px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -2238,9 +2243,6 @@ footer {
                       border: none;
                       outline: none;
                       cursor: pointer;
-                      img {
-                        width: 70%;
-                      }
                     }
                   }
                 }
@@ -2251,8 +2253,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #ffffff00;
                   margin-bottom: 10px;
@@ -2260,7 +2262,7 @@ footer {
 
                 .form-item {
                   .search-btn {
-                    padding: 12px 30px;
+                    padding: 11.5px 60px;
                     border: 1px solid #339cb3;
                     border-radius: 10px;
                     background-color: #339cb3;
@@ -2268,8 +2270,8 @@ footer {
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 12px; /* changed */
-                    line-height: 12px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #ffffff;
 
@@ -3117,29 +3119,28 @@ footer {
   main {
     .section1-page {
       background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-      width: 100%;
-      height: auto; /* changed */
-      background-size: 100% auto; /* changed */
+      width: auto;
+      height: 1000px; // max-height - 100% or auto
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: center center;
       .container {
-        width: 95%;
+        max-width: 95%;
         margin: 0 auto;
         .s1-description {
           display: flex;
           justify-content: center;
-          padding-top: 100px; /* changed */
-          padding-bottom: 50px; /* changed */
+          padding-top: 150px; // 284px
+          padding-bottom: 75px;
           .descr-text {
             display: block;
-            width: 300px; /* changed */
+            width: 683px;
 
             p {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 30px; /* changed */
-              line-height: 32px; /* changed */
+              font-size: 45px; // 61px
+              line-height: 50px;
               display: flex;
               align-items: center;
               text-align: center;
@@ -3152,37 +3153,38 @@ footer {
           justify-content: center;
           .sitter-content {
             /* Белый фон контент -  Белый фон контент */
-            width: 550px; /* changed */
+            max-width: 500px; // 1081px
 
             text-align: center;
 
             background-color: #fff;
             border-radius: 10px;
-            padding: 15px 20px 15px; /* changed */
-
-            margin-bottom: 20px; /* changed */
+            padding: 25px 30px 25px 30px;
 
             h1 {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 20px; /* changed */
-              line-height: 20px; /* changed */
+              font-size: 31px;
+              line-height: 36px;
               color: #25282b;
-              margin-bottom: 20px; /* changed */
+              margin-bottom: 60px;
             }
 
             .sitter-data {
               display: flex;
-              justify-content: space-between;
+              justify-content: center;
+              flex-wrap: wrap;
+              flex-direction: column;
+              gap: 20px;
 
               .sitter-data-item {
                 h2 {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -3190,26 +3192,28 @@ footer {
 
                 .form-item {
                   select {
-                    padding: 8px 10px 8px 8px; /* changed */
+                    // display: inline-block;
+                    padding: 12px 36px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     option {
-                      padding: 8px 10px 8px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -3222,8 +3226,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -3231,26 +3235,28 @@ footer {
 
                 .form-item {
                   form {
-                    padding: 8px 10px 8px 8px; /* changed */
+                    padding: 12px 15px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
+                    display: inline-block;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     label {
-                      padding: 8px 10px 8px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -3258,9 +3264,6 @@ footer {
                       border: none;
                       outline: none;
                       cursor: pointer;
-                      img {
-                        width: 70%; /* changed */
-                      }
                     }
                   }
                 }
@@ -3271,8 +3274,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #ffffff00;
                   margin-bottom: 10px;
@@ -3280,7 +3283,7 @@ footer {
 
                 .form-item {
                   .search-btn {
-                    padding: 11px 15px; /* changed */
+                    padding: 11.5px 60px;
                     border: 1px solid #339cb3;
                     border-radius: 10px;
                     background-color: #339cb3;
@@ -3288,8 +3291,8 @@ footer {
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #ffffff;
 
@@ -4130,6 +4133,8 @@ footer {
             cursor: pointer;
           }
           .log-in {
+            display: none; // Кнопка зарегистрироваться отключена
+
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #fff;
@@ -4154,29 +4159,28 @@ footer {
   main {
     .section1-page {
       background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-      width: 100%;
-      height: auto; /* changed */
-      background-size: 100% auto; /* changed */
+      width: auto;
+      height: 1000px; // max-height - 100% or auto
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: center center;
       .container {
-        width: 95%;
+        max-width: 95%;
         margin: 0 auto;
         .s1-description {
           display: flex;
           justify-content: center;
-          padding-top: 100px; /* changed */
-          padding-bottom: 50px; /* changed */
+          padding-top: 150px; // 284px
+          padding-bottom: 75px;
           .descr-text {
             display: block;
-            width: 300px; /* changed */
+            width: 683px;
 
             p {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 30px; /* changed */
-              line-height: 32px; /* changed */
+              font-size: 45px; // 61px
+              line-height: 50px;
               display: flex;
               align-items: center;
               text-align: center;
@@ -4189,37 +4193,38 @@ footer {
           justify-content: center;
           .sitter-content {
             /* Белый фон контент -  Белый фон контент */
-            width: 550px; /* changed */
+            max-width: 500px; // 1081px
 
             text-align: center;
 
             background-color: #fff;
             border-radius: 10px;
-            padding: 15px 20px 15px; /* changed */
-
-            margin-bottom: 20px; /* changed */
+            padding: 25px 30px 25px 30px;
 
             h1 {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 20px; /* changed */
-              line-height: 20px; /* changed */
+              font-size: 31px;
+              line-height: 36px;
               color: #25282b;
-              margin-bottom: 20px; /* changed */
+              margin-bottom: 60px;
             }
 
             .sitter-data {
               display: flex;
-              justify-content: space-between;
+              justify-content: center;
+              flex-wrap: wrap;
+              flex-direction: column;
+              gap: 20px;
 
               .sitter-data-item {
                 h2 {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -4227,26 +4232,28 @@ footer {
 
                 .form-item {
                   select {
-                    padding: 8px 10px 8px 8px; /* changed */
+                    // display: inline-block;
+                    padding: 12px 36px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     option {
-                      padding: 8px 10px 8px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -4259,8 +4266,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -4268,26 +4275,28 @@ footer {
 
                 .form-item {
                   form {
-                    padding: 8px 10px 8px 8px; /* changed */
+                    padding: 12px 15px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
+                    display: inline-block;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     label {
-                      padding: 8px 10px 8px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -4295,9 +4304,6 @@ footer {
                       border: none;
                       outline: none;
                       cursor: pointer;
-                      img {
-                        width: 70%; /* changed */
-                      }
                     }
                   }
                 }
@@ -4308,8 +4314,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #ffffff00;
                   margin-bottom: 10px;
@@ -4317,7 +4323,7 @@ footer {
 
                 .form-item {
                   .search-btn {
-                    padding: 11px 15px; /* changed */
+                    padding: 11.5px 60px;
                     border: 1px solid #339cb3;
                     border-radius: 10px;
                     background-color: #339cb3;
@@ -4325,8 +4331,8 @@ footer {
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #ffffff;
 
@@ -5171,6 +5177,8 @@ footer {
             cursor: pointer;
           }
           .log-in {
+            display: none; // Кнопка зарегистрироваться отключена
+
             padding: 8.5px 22px;
             border-radius: 50px;
             background-color: #fff;
@@ -5195,29 +5203,28 @@ footer {
   main {
     .section1-page {
       background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-      width: 100%;
-      height: auto; /* changed */
-      background-size: 100% auto; /* changed */
+      width: auto;
+      height: 1000px; // max-height - 100% or auto
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: top center;
       .container {
-        width: 90%;
+        max-width: 95%;
         margin: 0 auto;
         .s1-description {
           display: flex;
           justify-content: center;
-          padding-top: 75px; /* changed */
-          padding-bottom: 50px; /* changed */
+          padding-top: 150px; // 284px
+          padding-bottom: 75px;
           .descr-text {
             display: block;
-            width: 250px; /* changed */
+            width: 683px;
 
             p {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 25px; /* changed */
-              line-height: 25px; /* changed */
+              font-size: 45px; // 61px
+              line-height: 50px;
               display: flex;
               align-items: center;
               text-align: center;
@@ -5230,37 +5237,38 @@ footer {
           justify-content: center;
           .sitter-content {
             /* Белый фон контент -  Белый фон контент */
-            width: 500px; /* changed */
+            max-width: 500px; // 1081px
 
             text-align: center;
 
             background-color: #fff;
             border-radius: 10px;
-            padding: 10px 15px 10px; /* changed */
-
-            margin-bottom: 20px; /* changed */
+            padding: 25px 30px 25px 30px;
 
             h1 {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 15px; /* changed */
-              line-height: 15px; /* changed */
+              font-size: 31px;
+              line-height: 36px;
               color: #25282b;
-              margin-bottom: 20px; /* changed */
+              margin-bottom: 60px;
             }
 
             .sitter-data {
               display: flex;
-              justify-content: space-between;
+              justify-content: center;
+              flex-wrap: wrap;
+              flex-direction: column;
+              gap: 20px;
 
               .sitter-data-item {
                 h2 {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -5268,26 +5276,28 @@ footer {
 
                 .form-item {
                   select {
-                    padding: 8px 10px 8px 8px; /* changed */
+                    // display: inline-block;
+                    padding: 12px 36px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     option {
-                      padding: 8px 10px 8px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -5300,8 +5310,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -5309,26 +5319,28 @@ footer {
 
                 .form-item {
                   form {
-                    padding: 8px 10px 8px 8px; /* changed */
+                    padding: 12px 15px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
+                    display: inline-block;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     label {
-                      padding: 8px 10px 8px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -5336,9 +5348,6 @@ footer {
                       border: none;
                       outline: none;
                       cursor: pointer;
-                      img {
-                        width: 70%; /* changed */
-                      }
                     }
                   }
                 }
@@ -5349,8 +5358,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 12px; /* changed */
-                  line-height: 12px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #ffffff00;
                   margin-bottom: 10px;
@@ -5358,7 +5367,7 @@ footer {
 
                 .form-item {
                   .search-btn {
-                    padding: 11px 15px; /* changed */
+                    padding: 11.5px 60px;
                     border: 1px solid #339cb3;
                     border-radius: 10px;
                     background-color: #339cb3;
@@ -5366,8 +5375,8 @@ footer {
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #ffffff;
 
@@ -6130,8 +6139,8 @@ footer {
 
       .header-flex {
         display: flex;
-        justify-content: center; /* changed - space between */
-        flex-wrap: wrap-reverse;
+        justify-content: space-between; /* changed - space between */
+        // flex-wrap: wrap-reverse;
         text-align: center;
         align-items: center;
 
@@ -6219,6 +6228,8 @@ footer {
             cursor: pointer;
           }
           .log-in {
+            display: none; // Кнопка зарегистрироваться отключена
+
             padding: 8px 15px;
             border-radius: 50px;
             background-color: #fff;
@@ -6243,29 +6254,28 @@ footer {
   main {
     .section1-page {
       background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-      width: 100%;
-      height: auto; /* changed */
-      background-size: 100% auto; /* changed */
+      width: auto;
+      height: 920px; // max-height - 100% or auto
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: top center;
       .container {
-        width: 90%;
+        max-width: 95%;
         margin: 0 auto;
         .s1-description {
           display: flex;
           justify-content: center;
-          padding-top: 50px; /* changed */
-          padding-bottom: 30px; /* changed */
+          padding-top: 75px; // 284px
+          padding-bottom: 50px;
           .descr-text {
             display: block;
-            width: 250px; /* changed */
+            max-width: 683px;
 
             p {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 25px; /* changed */
-              line-height: 25px; /* changed */
+              font-size: 35px; // 61px
+              line-height: 40px;
               display: flex;
               align-items: center;
               text-align: center;
@@ -6278,37 +6288,38 @@ footer {
           justify-content: center;
           .sitter-content {
             /* Белый фон контент -  Белый фон контент */
-            width: 450px; /* changed */
+            max-width: 350px; // 1081px
 
             text-align: center;
 
             background-color: #fff;
             border-radius: 10px;
-            padding: 10px 10px; /* changed */
-
-            margin-bottom: 20px; /* changed */
+            padding: 25px 30px 25px 30px;
 
             h1 {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 15px; /* changed */
-              line-height: 15px; /* changed */
+              font-size: 31px;
+              line-height: 36px;
               color: #25282b;
-              margin-bottom: 20px; /* changed */
+              margin-bottom: 40px;
             }
 
             .sitter-data {
               display: flex;
-              justify-content: space-between;
+              justify-content: center;
+              flex-wrap: wrap;
+              flex-direction: column;
+              gap: 20px;
 
               .sitter-data-item {
                 h2 {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 10px; /* changed */
-                  line-height: 10px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -6316,26 +6327,28 @@ footer {
 
                 .form-item {
                   select {
-                    padding: 5px 5px; /* changed */
+                    // display: inline-block;
+                    padding: 12px 36px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     option {
-                      padding: 5px 5px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -6348,8 +6361,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 10px; /* changed */
-                  line-height: 10px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -6357,26 +6370,28 @@ footer {
 
                 .form-item {
                   form {
-                    padding: 5px 5px; /* changed */
+                    padding: 12px 15px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
+                    display: inline-block;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     label {
-                      padding: 5px 5px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -6384,9 +6399,6 @@ footer {
                       border: none;
                       outline: none;
                       cursor: pointer;
-                      img {
-                        width: 70%; /* changed */
-                      }
                     }
                   }
                 }
@@ -6397,8 +6409,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 10px; /* changed */
-                  line-height: 10px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #ffffff00;
                   margin-bottom: 10px;
@@ -6406,7 +6418,7 @@ footer {
 
                 .form-item {
                   .search-btn {
-                    padding: 8px 5px; /* changed */
+                    padding: 11.5px 60px;
                     border: 1px solid #339cb3;
                     border-radius: 10px;
                     background-color: #339cb3;
@@ -6414,8 +6426,8 @@ footer {
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #ffffff;
 
@@ -7184,8 +7196,8 @@ footer {
 
       .header-flex {
         display: flex;
-        justify-content: center; /* changed - space between */
-        flex-wrap: wrap-reverse;
+        justify-content: space-between; /* changed - space between */
+        // flex-wrap: wrap;
         text-align: center;
         align-items: center;
 
@@ -7204,8 +7216,6 @@ footer {
             height: 50px;
             margin-right: 15px;
             align-items: center;
-
-            margin-right: 250px; /* changed */
           }
           .close-menu {
             display: block; /* close menu icon */
@@ -7275,6 +7285,8 @@ footer {
             cursor: pointer;
           }
           .log-in {
+            display: none; // Кнопка зарегистрироваться отключена
+
             padding: 8px 15px;
             border-radius: 50px;
             background-color: #fff;
@@ -7299,29 +7311,28 @@ footer {
   main {
     .section1-page {
       background-image: url(/1-main-page/images-main/1.1-main-bg-picture.png);
-      width: 100%;
-      height: auto; /* changed */
-      background-size: 100% auto; /* changed */
+      width: auto;
+      height: 920px; // max-height - 100% or auto
+      background-size: cover;
       background-repeat: no-repeat;
-      background-position: top center;
       .container {
-        width: 90%;
+        max-width: 95%;
         margin: 0 auto;
         .s1-description {
           display: flex;
           justify-content: center;
-          padding-top: 50px; /* changed */
-          padding-bottom: 30px; /* changed */
+          padding-top: 75px; // 284px
+          padding-bottom: 50px;
           .descr-text {
             display: block;
-            width: 250px; /* changed */
+            max-width: 683px;
 
             p {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 25px; /* changed */
-              line-height: 25px; /* changed */
+              font-size: 35px; // 61px
+              line-height: 40px;
               display: flex;
               align-items: center;
               text-align: center;
@@ -7334,37 +7345,38 @@ footer {
           justify-content: center;
           .sitter-content {
             /* Белый фон контент -  Белый фон контент */
-            width: 450px; /* changed */
+            max-width: 350px; // 1081px
 
             text-align: center;
 
             background-color: #fff;
             border-radius: 10px;
-            padding: 10px 10px; /* changed */
-
-            margin-bottom: 20px; /* changed */
+            padding: 25px 30px 25px 30px;
 
             h1 {
               font-family: "Raleway";
               font-style: normal;
               font-weight: 700;
-              font-size: 15px; /* changed */
-              line-height: 15px; /* changed */
+              font-size: 31px;
+              line-height: 36px;
               color: #25282b;
-              margin-bottom: 20px; /* changed */
+              margin-bottom: 40px;
             }
 
             .sitter-data {
               display: flex;
-              justify-content: space-between;
+              justify-content: center;
+              flex-wrap: wrap;
+              flex-direction: column;
+              gap: 20px;
 
               .sitter-data-item {
                 h2 {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 10px; /* changed */
-                  line-height: 10px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -7372,26 +7384,28 @@ footer {
 
                 .form-item {
                   select {
-                    padding: 5px 5px; /* changed */
+                    // display: inline-block;
+                    padding: 12px 36px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     option {
-                      padding: 5px 5px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -7404,8 +7418,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 10px; /* changed */
-                  line-height: 10px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #25282b;
                   margin-bottom: 10px;
@@ -7413,26 +7427,28 @@ footer {
 
                 .form-item {
                   form {
-                    padding: 5px 5px; /* changed */
+                    padding: 12px 15px 12px 12px;
                     border: 1px solid #78d1e5;
                     border-radius: 10px;
+                    width: 250px;
+                    display: inline-block;
 
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #b3aeae;
                     cursor: pointer;
                     label {
-                      padding: 5px 5px; /* changed */
+                      padding: 12px 36px 12px;
 
                       font-family: "Open Sans";
                       font-style: normal;
                       font-weight: 400;
-                      font-size: 10px; /* changed */
-                      line-height: 10px; /* changed */
+                      font-size: 16px;
+                      line-height: 22px;
                       align-items: center;
                       color: #b3aeae;
                     }
@@ -7440,9 +7456,6 @@ footer {
                       border: none;
                       outline: none;
                       cursor: pointer;
-                      img {
-                        width: 70%; /* changed */
-                      }
                     }
                   }
                 }
@@ -7453,8 +7466,8 @@ footer {
                   font-family: "Raleway";
                   font-style: normal;
                   font-weight: 700;
-                  font-size: 10px; /* changed */
-                  line-height: 10px; /* changed */
+                  font-size: 20px;
+                  line-height: 23px;
                   align-items: center;
                   color: #ffffff00;
                   margin-bottom: 10px;
@@ -7462,7 +7475,7 @@ footer {
 
                 .form-item {
                   .search-btn {
-                    padding: 8px 5px; /* changed */
+                    padding: 11.5px 60px;
                     border: 1px solid #339cb3;
                     border-radius: 10px;
                     background-color: #339cb3;
@@ -7470,8 +7483,8 @@ footer {
                     font-family: "Open Sans";
                     font-style: normal;
                     font-weight: 400;
-                    font-size: 10px; /* changed */
-                    line-height: 10px; /* changed */
+                    font-size: 16px;
+                    line-height: 22px;
                     align-items: center;
                     color: #ffffff;
 
